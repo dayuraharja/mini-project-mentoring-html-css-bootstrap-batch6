@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top style-background"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">DENKHA SERVICE COMPUTER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- style1 -->
+        <div
+          class="collapse navbar-collapse style1"
+          style="justify-content: flex-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galery</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse"
+          style="justify-content: flex-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a class="nav-link link-dark" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/img1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/img1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/img1.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- breadcumb -->
+    <nav aria-label="breadcrumb" style="margin-top: 15px; margin-left: 5px">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <!-- figure -->
+    <div class="container-fluid">
+      <div class="row style-background">
+        <div class="col">
+          <figure class="figure">
+            <figcaption class="figure-caption">
+              Menghadirkan layanan mudah cepat dan berkualitas
+            </figcaption>
+            <div class="style3">
+              <img
+                src="./images/rating.png"
+                class="figure-img img-fluid rounded style2"
+                alt="..."
+              />
+            </div>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="figure">
+            <div class="style3">
+              <img
+                src="./images/consult.png"
+                class="figure-img img-fluid rounded style2"
+                alt="..."
+              />
+            </div>
+            <figcaption class="figure-caption">
+              Melayani dan menjangkau semua kalangan
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- card -->
+    <div class="container-fluid style4">
+      <div class="row">
+        <div class="col">
+          <div class="card style6">
+            <img
+              src="./images/gratis-antar-jempuit.png"
+              class="card-img-top style2 style5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title style7">Gratis Antar Jemput</h5>
+              <p class="card-text style8">
+                Gratis biaya antar jemput unit yang akan di service dari Rumah
+                dan Kantor Area Jabodetabek.
+              </p>
+              <div class="style9">
+                <a
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                  >Cek disini</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card style6">
+            <img
+              src="./images/teknisi-profesional.png"
+              class="card-img-top style2 style5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title style7">Teknisi Profesioanl</h5>
+              <p class="card-text style8">
+                Teknisi kami berpengalaman dan professional siap datang ke
+                lokasi anda.
+              </p>
+              <div class="style9">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                  class="btn btn-primary"
+                  >Cek disini</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card style6">
+            <img
+              src="./images/murah.png"
+              class="card-img-top style2 style5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title style7">Biaya Jasa Murah</h5>
+              <p class="card-text style8">
+                Jangan kawatir biaya jasa service kami murah dan logis dan tidak
+                mengada-ngada.
+              </p>
+              <div class="style9">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                  class="btn btn-primary"
+                  >Cek disini</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card style6">
+            <img
+              src="./images/garansi.png"
+              class="card-img-top style2 style5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title style7">Jasa Bergaransi</h5>
+              <p class="card-text style8">
+                Jangan kawatir jasa service kami selalu memberikan garansi purna
+                service lebih tenang.
+              </p>
+              <div class="style9">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4"
+                  class="btn btn-primary"
+                  >Cek disini</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- modal-1 -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Gratis Antar Jemput
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Gratis biaya antar jemput unit yang akan di service dari Rumah dan
+            Kantor Area Jabodetabek.
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-2 -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Teknisi Profesional
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Teknisi kami berpengalaman dan professional siap datang ke lokasi
+            anda.
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Biaya Jasa Murah</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Jangan kawatir biaya jasa service kami murah dan logis dan tidak
+            mengada-ngada.
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-4 -->
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Jasa Bergaransi</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Jangan kawatir jasa service kami selalu memberikan garansi purna
+            service lebih tenang.
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- logo -->
+    <div class="container-fluid style12">
+      <div class="row style11" style="padding: 20px">
+        <div class="col-2">
+          <img src="./images/acer.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-2">
+          <img src="./images/asus.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-2">
+          <img src="./images/dell.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-2">
+          <img
+            src="./images/lenovo.png"
+            class="img-thumbnail style2"
+            alt="..."
+          />
+        </div>
+        <div class="col-2">
+          <img src="./images/lg.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-2">
+          <img src="./images/oppo.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-4">
+          <img
+            src="./images/samsung.png"
+            class="img-thumbnail"
+            style="width: 100%; height: 150px"
+            alt="..."
+          />
+        </div>
+        <div class="col-2">
+          <img src="./images/sony.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-2">
+          <img src="./images/vivo.png" class="img-thumbnail style2" alt="..." />
+        </div>
+        <div class="col-4">
+          <img
+            src="./images/xiaomi.png"
+            class="img-thumbnail style2"
+            style="width: 100%; height: 150px"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container-fluid p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Inilah Kami</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p class="text-dark text-break" style="text-align: justify">
+                  DENKHA Service Computer adalah toko yang menjual laptop,
+                  komputer, printer, projector, aksesoris, sparepart, hardware
+                  dan alat tulis kantor (ATK) serta menyediakan jasa service
+                  perbaikannya untuk memenuhi kebutuhan Anda. <br /><br />
+                  Kami juga telah dipercaya menjadi perwakilan Service Center
+                  beberapa brand laptop terkenal yang ada di Indonesia seperti
+                  Lenovo, HP, Asus, Acer dan Axioo disamping juga menangani
+                  service laptop brand lainnya seperti Dell, Samsung, Toshiba,
+                  Apple Macbook, Fujitsu, dll.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Kirim Email ke Kami</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <div class="mb-2">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Pesan</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                  <button type="button" class="btn btn-primary mt-3">
+                    submit
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Tentang Kami</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Outlet Kami</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Testimoni</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Menjadi Suplier</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Informasi</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Garansi & Pengembalian</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Konfirmasi Pembayaran</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Order Tracking</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Service Center</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-dark" href="https://instagram.com/dayuraharja93"
+          >dayuraharja</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

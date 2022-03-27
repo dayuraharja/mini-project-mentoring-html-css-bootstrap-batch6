@@ -1,0 +1,117 @@
+.style-background {
+  background: rgb(255, 255, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 253, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-box-shadow: 0px 9px 12px -7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 12px -7px rgba(0, 0, 0, 0.5);
+}
+
+.style-background2 {
+  background: rgb(177, 177, 170);
+  background: linear-gradient(
+    90deg,
+    rgb(230, 230, 224) 0%,
+    rgb(230, 224, 224) 100%
+  );
+  -webkit-box-shadow: 0px 9px 12px -7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 12px -7px rgba(0, 0, 0, 0.5);
+}
+
+.style1 {
+  justify-content: center;
+}
+
+.style2 {
+  width: 150px;
+  height: 150px;
+}
+
+.style3 {
+  display: flex;
+  justify-content: center;
+}
+
+.style4 {
+  margin-top: 13px;
+}
+
+.style5 {
+  align-self: center;
+}
+
+.style6 {
+  width: 18rem;
+}
+
+h5.style7 {
+  text-align: center;
+}
+
+.style8 {
+  height: 6rem;
+  text-align: justify;
+}
+
+.style9 {
+  display: flex;
+  justify-content: center;
+}
+
+.style10 {
+  margin-right: 20px;
+}
+
+.style11 {
+  -webkit-box-shadow: 1px 4px 21px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 4px 21px 10px rgba(0, 0, 0, 0.1);
+}
+
+.style12 {
+  margin-top: 50px;
+}
+
+.style13 {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.w-100 {
+  height: 350px;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.figure-caption {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .w-100 {
+    height: 150px;
+  }
+
+  .style6 {
+    width: auto;
+  }
+
+  .style8 {
+    height: 9rem;
+  }
+
+  .w-25 {
+    width: 50% !important;
+  }
+
+  .w-50 {
+    width: 6rem !important;
+  }
+}
